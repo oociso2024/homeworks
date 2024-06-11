@@ -1,5 +1,8 @@
 # Домашние задания по курсу «Основы Javascript»
 
+
+https://github.com/oociso2024/homeworks/blob/main/1.base-concepts/index.html
+
 0. [Основы отладки](./0.debugger/)
 
 1. [Основные понятия](./1.base-concepts/)
