@@ -1,5 +1,12 @@
 # Домашние задания по курсу «Основы Javascript»
 
+
+[Индекс](./1.base-concepts/index.html)
+
+[Папка с 1 ДЗ](./1.base-concepts)
+
+
+
 0. [Основы отладки](./0.debugger/)
 
 1. [Основные понятия](./1.base-concepts/)
