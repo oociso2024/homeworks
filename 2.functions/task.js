@@ -28,11 +28,11 @@ function summElementsWorker(...arr) {
 	let sum = 0;
 	if (arr.length === 0) {
 		return 0;
-	} else {
-		sum = arr.reduce((accumulator, currentValue) => {
-			return accumulator + currentValue
-		});
-	}
+	} 
+	sum = arr.reduce((accumulator, currentValue) => {
+		return accumulator + currentValue
+	});
+	
 	return sum;
 }
 
@@ -90,18 +90,16 @@ function averageEvenElementsWorker(...arr) {
 
 function makeWork(arrOfArr, func) {
 	let maxWorkerResult = -Infinity;
-	let res;
-	let numbers;
-
+	
 	if (arrOfArr.length === 0) {
 		return 0;
 	}
 	for (let i = 0; i < arrOfArr.length; i++) {
-		numbers = arrOfArr[i];
-		res = func(...numbers);
+		let res = func(...arrOfArr[i]);
 		if (res > maxWorkerResult) {
 			maxWorkerResult = res;
 		}
 	}
 	return maxWorkerResult;
 }
+
